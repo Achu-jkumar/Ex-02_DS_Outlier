@@ -1,10 +1,20 @@
 # Ex-02_DS_Outlier
 ## AIM:
-...
+ To detect the outlier and remove it.
 ## Equipments Required:
-....
+ Hardware-PC
+ python-jupyter notebook.
+ Pandas software.
 ## Algorithm:
-....
+### STEP 1:
+ Import pandas read the csv file.
+### STEP2 :
+ Use drop method toremove the non-numeric data .
+### STEP 3:
+ Using Z-score and quanitle remove the outlier.
+### STEP 4:
+ Using boxplot outlier can be deected. 
+
 ## Code:
 ```
 import pandas as pd
@@ -39,5 +49,6 @@ df2new.boxplot()
 ![ds023](./ds023.png)
 
 ## Result :
- 
+Outlier has been successfully detected and removed.
+
 
